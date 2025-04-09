@@ -1,5 +1,5 @@
 displaySync = (data) => {
-    console.log(data);
+    console.log(data); //функция для "синхронного" отображения данных
 }
 
 console.log("Начало работы программы");
