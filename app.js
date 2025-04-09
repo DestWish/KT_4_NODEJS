@@ -1,10 +1,7 @@
-const http = require('http');
-const port = 3000;
-let message = 'Hello, World!';
-http.createServer((req, res) => {
+displaySync = (data) => {
+    console.log(data);
+}
 
-    console.log(message)
-    response.end(message)
-}).listen(port, () => {
-    console.log(`сервер запущенн на http://localhost:${port}/`);
-})
+console.log("Начало работы программы");
+displaySync("Обработка данных...");
+console.log("Завершение работы программы");
