@@ -1,5 +1,5 @@
 displaySync = (data) => {
-    console.log(data); //функция для "синхронного" отображения данных
+    setTimeout(() => console.log(data), 3000); //функция для "асинхронного" отображения данных с использованием setTimeout
 }
 
 console.log("Начало работы программы");
